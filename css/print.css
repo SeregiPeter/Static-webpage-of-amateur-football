@@ -1,0 +1,29 @@
+@media print {
+
+    header,
+    nav,
+    footer {
+        display: none;
+    }
+
+
+    img {
+        width: 40%;
+        height: auto;
+    }
+
+    video {
+        display: none;
+    }
+
+
+    body {
+        font-size: 12pt;
+        line-height: 1.5;
+        margin: 0.5in;
+    }
+
+    .noprint {
+        display: none;
+    }
+}

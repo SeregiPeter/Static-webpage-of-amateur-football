@@ -1,0 +1,145 @@
+@media screen {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #8bb48b;
+        font-size: 1.3rem;
+        text-align: justify;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+        color: #192416;
+        margin-bottom: 3rem;
+        margin-top: 0rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 2rem;
+        color: #192416;
+        margin-bottom: 0.8rem;
+        margin-top: 0.8rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+        color: #192416;
+        margin-bottom: 0.6rem;
+        margin-top: 0.6rem;
+    }
+
+    p {
+        line-height: 1.5;
+        color: #192416;
+        margin-bottom: 1.25rem;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+    .carousel-container {
+        width: 72%;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    .navbar-nav .nav-item.active .nav-link {
+        background-color: #3e3f3d;
+        border-radius: 10px;
+    }
+
+    .footer-font {
+        font-size: 1.2rem;
+    }
+
+    .centered-justified {
+        text-align: justify;
+    }
+
+    .in-column {
+        text-align: justify;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .img-rounded {
+        border-radius: 8px;
+    }
+
+    video {
+        border-radius: 8px;
+        width: 80%;
+    }
+
+    .inform {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .textinput {
+        width: 30%;
+    }
+
+    .bgcol {
+        background-color: #849484ee;
+        border-radius: 8px;
+    }
+
+    hr {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        border-width: 4px 0 0 0;
+        border-radius: 5px;
+        border-style: solid;
+        border-color: #192416
+    }
+
+
+
+
+    a.foreign:link {
+        color: #1b1b37
+    }
+
+    a.foreign:visited {
+        color: #6363a6
+    }
+
+    .balra {
+        text-align: left;
+    }
+
+    .icon {
+        border-radius: 5px;
+        width: 6%;
+        min-width: 60px;
+        float: right;
+        margin-left: 0.1em;
+        margin-right: 0em;
+    }
+
+    .icon_last {
+        border-radius: 5px;
+        width: 6%;
+        min-width: 60px;
+        float: right;
+        margin-left: 0.1em;
+        margin-right: 0em;
+        border: 1px solid black;
+    }
+
+    .kipozicional {
+        position: absolute;
+        left: -8000px;
+    }
+
+    input.form-control {
+        min-width: 240px;
+    }
+
+    
+
+
+
+}

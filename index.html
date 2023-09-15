@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <title>Kezdőlap - A megyei foci</title>
+  <link rel="icon" href="./media/images/favicon.png">
+  <link rel="stylesheet" type="text/css" href="./css/print.css" media="print">
+  <link rel="stylesheet" type="text/css" href="./css/default.css">
+  <link rel="alternate stylesheet" type="text/css" href="css/nagybetus.css" title="nagybetus">
+  <script src="scripts/styleswitcher.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Kezdőlap</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bajnoksagok.html">Bajnokságok</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="csapat.html">Egy megyei csapat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="visszajelzes.html">Visszajelzés</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <nav class="kipozicional">
+      <a href="#tartalom">Ugrás a tartalomra</a>
+    </nav>
+  </header>
+  <main id="tartalom">
+    <div class="container-fluid">
+      <div class="row justify-content-end">
+        <div class="col-auto">
+          <nav id="gyengenlato">
+            <a id="nagybetu" href="#" onclick="setActiveStyleSheet('nagybetus'); return false;">
+              <span class="ikon"></span>
+              <img src="media/images/font_increase.png" class="icon" alt="betűméret növelő ikon">
+            </a>
+            <a id="normalbetu" href="#" onclick="setActiveStyleSheet('normal'); return false;">
+              <span class="ikon"></span>
+              <img src="media/images/font_decrease.png" class="icon" alt="betűméret csökkentő ikon">
+            </a>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <section class>
+      <div class="container">
+      <h1>Kezdőlap</h1>
+      </div>
+      <figure id="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-container noprint" data-ride="carousel">
+          <ol class="carousel-indicators visually-hidden">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="media/images/kezdolap1.jpg" target="_blank"><img class="d-block w-100 img-rounded"
+                  src="media/images/kezdolap1vagva.jpg" alt="Kung-fu stílusú fejelés egy mérkőzésen"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="media/images/kezdolap2.jpg" target="_blank"><img class="d-block w-100 img-rounded"
+                  src="media/images/kezdolap2vagva.jpg" alt="ködös kép egy mérkőzésről"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="media/images/kezdolap3.jpg" target="_blank"><img class="d-block w-100 img-rounded"
+                  src="media/images/kezdolap3vagva.jpg" alt="kapu előtti kavarodás egy mérkőzésen"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="media/images/kezdolap4.jpg" target="_blank"><img class="d-block w-100 img-rounded"
+                  src="media/images/kezdolap4vagva.jpg" alt="mérkőzés előkészületei - háló felrakása"></a>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only visually-hidden">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only visually-hidden">Next</span>
+          </a>
+        </div>
+      </figure>
+      <p>Mennyi az állás? 0-0, de akár lehetne fordítva is." - hallhatjuk vasárnap kora délután a helyi focipálya
+        mellett két szurkoló szóváltását. Ennél azonban lényegesen több élménnyel gazdagodhat az ember, ha kilátogat egy
+        <i>„mennyei megyei”</i> mérkőzésre. Az oldal célja, hogy bemutassa a <b>magyar amatőr labdarúgó bajnokságok</b>
+        rendszerét.
+      </p>
+      <hr>
+      <section class="noprint">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <figure id="balls"><img src="media/images/balls.jpg" alt="focilabdák" class="img-fluid mt-2 img-rounded">
+              </figure>
+              <p class="text-center mt-2">A megyei futball mindig is fontos része volt a helyi közösségek életének. A
+                falvak ...</p>
+              <a href="bajnoksagok.html" class="btn btn-dark d-block mt-2">Bővebben a bajnokságokról</a>
+            </div>
+            <div class="col-md-6">
+              <figure id="pitch"><img src="media/images/pitch.jpg" alt="csolnoki focipálya"
+                  class="img-fluid mt-2 img-rounded"></figure>
+              <p class="text-center mt-2">A Komárom-Esztergom megyei Csolnok életében már több mint 100 éve jelen van a
+                labdarúgás. A felnőtt ... </p>
+              <a href="csapat.html" class="btn btn-dark d-block mt-2">Bővebben a megyei csapatról</a>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="container text-center mt-3">
+          <p>Kérdése, észrevétele akadt?</p>
+          <a href="visszajelzes.html" class="btn btn-dark mb-5">Visszajelzés</a>
+        </div>
+      </section>
+    </section>
+  </main>
+  <footer class="bg-dark text-center py-3">
+    <p class="text-white footer-font">Seregi Péter © 2023</p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+body {
+    background-color: #8bb48b;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+h1 {
+    font-size: 3rem;
+    color: #192416;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    text-align:center;
+}
